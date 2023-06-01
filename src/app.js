@@ -20,11 +20,12 @@ function randomExcuse() {
     "right on time",
     "when I finished",
     "during my lunch",
-    "while I was praying",
+    "while I was praying"
   ];
 
-  return `${who[Math.floor(Math.random() * who.lenght)]} 
-${action[Math.floor(Math.random() * action.lenght)]} 
-${what[Math.floor(Math.random() * what.lenght)]} 
-${when[Math.floor(Math.random() * when.lenght)]}`;
+  return `${who[Math.floor(Math.random() * who.length)]} ${
+    action[Math.floor(Math.random() * action.length)]
+  } ${what[Math.floor(Math.random() * what.length)]} ${
+    when[Math.floor(Math.random() * when.length)]
+  }`;
 }
